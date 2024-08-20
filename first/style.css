@@ -1,0 +1,206 @@
+
+
+.fixed {
+  position: fixed;
+ width:100%;
+top:0px;
+}
+#h1 {
+
+ background-color:#405D72;
+ color: #758694;
+ text-align: center;
+ padding-top: 0px;
+ padding-bottom: 5px;
+}
+
+#h2 {
+  mrgin: 20px;
+  background-color:#F7E7DC;
+ color: #FFF8F3;
+ 
+}
+
+/* h1box */
+
+#heading1 {
+  margin:auto;
+  width:600px;
+  height: auto;
+  text-align: center;
+  
+  background-color:#686D76;
+}
+
+.h1box1 {
+  padding:20px;
+  margin:5px;
+  width:200px;
+  text-align: center;
+}
+
+
+#first {
+ display:flex;
+}
+
+#second {
+ display:flex;
+}
+
+/* h1 box cmpt */
+
+
+/* imagediv*/
+
+#imageDiv {
+  
+  color: #A91D3A;
+  top:0;
+  margin-top:5px;
+  margin:bottom: 5px;
+  border:10px solid gray;
+  border-radius:50%;
+  width:400px;
+  height:400px;
+  text-align:center;
+  background-image: url('devil.jpg');
+  background-size:cover;
+     outline: 5px solid #7D7463;
+      outline-offset: 3px;
+}
+
+
+#quote {
+      font-size: 20px;
+      background-color:#EEE2DE;
+      color:#EA906C;
+      border: 1px solid gray;
+      outline: 1px solid red;
+      outline-offset: 3px;
+      text-align: center;
+}
+
+#shadow {
+  text-align:center;
+  text-decoration: underline;
+  font-size:50px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.cloud {
+  width:800px;
+  margin:auto;
+  display: flex;
+}
+
+
+
+/* table*/
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size:25px;
+  width:50%;
+ 
+}
+
+tr:hover {
+background-color:#615EFC;
+
+}
+
+
+
+.relative {
+   border: 2px solid black;
+   background-color:#EEE2DE;
+   height:100px;
+   width:100px;
+  float:left;
+  margin-right:10px;
+}
+
+#two {
+ background-color:#EED2DE;
+ margin-right: 20px;
+}
+
+#three {
+ background-color:#EEA2DE;
+}
+
+#absolute {
+ 
+ top:20px;
+}
+
+#main { 
+  position: relative;
+  height:400px;
+  width:350px;
+  border: 2px solid black;
+   position: relative;
+}
+
+#child {
+height: 50px;
+width:50px;
+border: 2px solid red;
+position: absolute;
+top: 10px; 
+
+bottom-right:10px;
+}
+
+.image {
+   position: relative;
+  height:400px;
+  width: 350px;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url('nature.jpg');
+  background-size: cover;
+  color:red;
+}
+
+image {
+opacity: 0.5;
+}
+
+.topright {
+position: absolute;
+top:10px;
+left:10px;
+}
+
+.topleft {
+  position: absolute;
+top:10px;
+right:10px;
+}
+
+.bottomright {
+ position: absolute;
+bottom:10px;
+right:10px;
+}
+
+.bottomleft {
+position: absolute;
+bottom:10px;
+left:10px;
+}
+
+.center {
+ position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
